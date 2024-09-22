@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+.header{
+    max-width: 90vw;
+    display: flex;
+    padding: 15px;
+    height: fit-content;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo{
+    flex-basis: 30%;
+    display: flex;
+}
+h2{
+    font-weight: 300;
+}
+nav{
+    flex-basis: 40%;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 8px;
+    color: black;
+   
+}
+nav ul li{
+    padding-bottom: 10px;
+}
+nav ul li a:hover{
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    border: none;
+}
+nav ul li .contact_btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.contact_btn:hover{
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+}
+
+/* global sytles */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo_text{
+    color: steelblue;
+    font-weight: 500;
+    margin: 3px;
+}
+.active{
+border-bottom: 2px solid #fce6b4;
+}
+.higtlight{
+    background-color: orange;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.footer-title{
+    font-weight: 500;
+    background-color:  #fce6b4;
+    width: 130px;
+}
+
+/* end
+ global */
+
+/* Hero section syles */
+.hero{
+    background-color: #d5ad;
+    background-image: linear-gradient(315deg,#d5ad, 0% #5d1437, 74% );
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    background-color: #f5f9ff;
+    color: black;
+    padding: 10px;
+}
+/* showcase section */
+.container{
+    max-width: 90vw;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    height: fit-content;
+    margin-top: 30px;
+}
+.col-2{
+    min-width: 300px;
+    background-color: rgb(247, 241, 223);
+    padding: 15px;
+    margin: 2%;
+    flex-basis: 45%;
+}
+.col-2 img{
+    width: 100%;
+}
+
+ .trips{
+   margin-bottom: 80px;
+ }
+ .trip{
+    min-height: 150px;
+    padding: 15px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .trip:hover{
+    background-color: #fdf9ef;
+ }
+ .trip i{
+    font-size: 3rem;
+    margin: 10px;
+ }
+.fa-plane{
+    background-color: steelblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.fa-ship{
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 5px;
+}
+.fa-bus{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+}
+ .col-3{
+    flex-basis: 30%;
+    min-width: 300px;
+    margin: 1%;
+    background-color: #faf9f5;
+    padding: 20px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+ }
+ /* footer */
+ footer{
+    height: fit-content;
+    background-color: rgb(230, 230, 230);
+    padding: 40px;
+ }
+ .col-4{
+    flex-basis: 22%;
+    min-height: 240px;
+    margin: 1%;
+ }
+ .col-4-items{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+ }
+ .col-4-items > small{
+    padding: 10px;
+ }
+ 
+ .sub-footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 100%;
+    text-align: center;
+ }
+
+ i{
+    font-size: 1.4rem;
+    margin-left: 10px;
+    background-color: azure;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+ }
+ .fa-facebook:hover{
+    color: blue;
+ }
+ .fa-twitter:hover{
+    color: lightblue;
+ }
+ .fa-instagram:hover{
+    color: purple;
+ }
+ .fa-whatsapp:hover{
+    color: lightgreen
+ }
+ /* services design */
+ .boxes{
+    background-color: rgb(249, 251, 253);
+    border-radius: 6px;
+ }
+ .box{
+    border: 1px solid grey;
+    border-radius: 2px;
+ }
+ .box-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fce6b4;
+ }
+ .box-one img:hover{
+    transform: translate(120px, 20%);
+    transition: all 0.3s ease-in-out;
+ }
+ .box-two{
+background-color: #fffcf6;
+ }
+ .btn{
+    height: 55px;
+    margin: 10px;
+    border: none;
+    font-family: inherit;
+    background-color: gray;
+    color: white;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 1.2rem;
+     transition: all 0.3s ease-in-out;
+ }
+ /* contact page */
+ .form{
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+ }
+ .form .form-control{
+    margin-top: 10px;
+    width: 100%;
+ }
+ input{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+ }
+ input:focus{
+    outline: none;
+ }
+ select{
+    padding: 20px;
+    width: 100%;
+    font-size: inherit;
+    border: none;
+ }
+ .submit input{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+ }
+ .submit input:hover{
+    cursor: pointer;
+    background-color: wheat;
+    color: black;
+ }
+ .contact .text{
+    background-color: #fce6b4;
+    padding: 15px;
+ }
+
+ /* media quries */
+ @media screen and (max-width:880px){
+    .logo{
+        display: none;
+    }
+    nav ul{
+        background-color: #b8c6db;
+        background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        transition: max-hight 0.5;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    ul li a{
+        color: black;
+    }
+ }
+ @media screen and (max-width:500px){
+    nav ul li a{
+        font-size: 0.5rem;
+    }
+
+   .row .col-2{
+      margin-right: -10px;
+    }
+    .title{
+        margin-top: 30px;
+        font-size: 1.2rem;
+    }
+ }
